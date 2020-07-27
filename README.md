@@ -1,10 +1,10 @@
 # Node.js<br>
-## Basic knowledge:
+## 1. Basic knowledge:
 - HTML
 - CSS
 - JavaScript
 
-## What Node.js can do?
+## 2. What Node.js can do?
 - Front-end
 - Back-end
 - Full stack developer
@@ -12,7 +12,7 @@
 
 User --> Front Page - (Send Request) -> Web sever --> Database
 
-## What is Node?
+## 3. What is Node?
 Not only Node can open sever end box,
 - Java
 - PHP
@@ -22,7 +22,7 @@ Not only Node can open sever end box,
 
 These can also do sever end, but only Node.js use JavaScript language.
 
-### Node.js is a JavaScript runtime on Chrome's V8 JavaScript Engine
+### 3.1. Node.js is a JavaScript runtime on Chrome's V8 JavaScript Engine
 - it is not a programming language
 - it is not a library or a framework
 - it is only a runtime of JavaScript
@@ -35,12 +35,12 @@ JavaScript in Node.js:
 - Telecommunication
 - http sever
 
-### Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
+### 3.2. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
 - event-driven 事件驱动
 - non-blocking I/O model 非阻塞IO模型(异步)
 - lightweight and efficient 轻量和高效
 
-### Node.js' package ecosystem, npm is the largest ecosystem of open source libraries in the world.
+### 3.3. Node.js' package ecosystem, npm is the largest ecosystem of open source libraries in the world.
 
 ## Some resource and doc
 - 《深入浅出Node.js》
@@ -49,7 +49,7 @@ JavaScript in Node.js:
 - [Node.js 阮一峰](https://javascript.ruanyifeng.com/nodejs/basic.html)
 - [Node.js](https://nodejs.org/)
 
-## Further knowledge
+## 4. Further knowledge
 - b/s
 - modularisation
 - Node API
@@ -62,7 +62,7 @@ It also can help you learn:
 - Vue
 - React
 - Angular
-## How to install Node.js
+## 5. How to install Node.js
 1. [Download Node from this page](https://nodejs.org/en/download/) <br>
 LTS: Long Time Stable<br>
 Current: The latest version<br>
@@ -71,16 +71,20 @@ Select one version based your OS
 3. Run `node -v` to check your version<br>
 v14.5.0
 
+---
+
+# Let's start
 ## 01
 ### 1. HelloWorld
 1. Create your HelloWorld.js file.
 2. Open terminal and locate your HelloWorld.js file dictionary.
-3. Run `node HelloWorld.js`<br>
+3. Run `node HelloWorld.js`
 
 
     Hello World!
 
 **DO NOT USE "NODE" AS YOUR FILE NAME**
+
 ### 2. NoBOMandDOM
 `node NoBOMandDOM`
 <p>
