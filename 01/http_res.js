@@ -9,7 +9,7 @@ response object: send message to user
  */
 server.on('request', function (request, response){
     console.log('Request have received, the path is: ' + request.url)
-    console.log(request)
+    //console.log(request)
     //response.write() can send message to user
     //you can use response.write() many times but must use response.end() to end the response, otherwise the user will keep waiting.
     response.write('Your request have received, your request url is: ' + request.url)

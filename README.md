@@ -140,5 +140,9 @@ Use ^C close the server.
     ^C
     nd@Neils-MacBook-Pro 01 % 
 ### 7. http_res
-response.write()
+Use `response.write()` to send a message to user, but must use `response.end()` to end the session.<br>
+Check it out in your browser.
+
+    Your request have received, your request url is: /This is the end of response.
+
     
