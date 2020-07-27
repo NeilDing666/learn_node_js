@@ -14,7 +14,12 @@ server.on('request', function (request, response){
     //you can use response.write() many times but must use response.end() to end the response, otherwise the user will keep waiting.
     response.write('Your request have received, your request url is: ' + request.url)
     response.write('This is the end of response.')
+
     response.end()
+    // or you can
+    //response.end('This is the end of response.')
+
+    //response.write() can only be binary or String
 })
 
 server.listen('3000', function (){
