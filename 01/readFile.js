@@ -21,7 +21,7 @@ let fs = require('fs')
                 data: file data
                 error: null
             fail:
-                data: null
+                data: undefined
                 error: error object
  */
 fs.readFile('./hello.txt',function(error, data){
