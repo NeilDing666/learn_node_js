@@ -43,6 +43,7 @@ JavaScript in Node.js:
 ### 3.3. Node.js' package ecosystem, npm is the largest ecosystem of open source libraries in the world.
 
 ## Some resource and doc
+- [lookroot](https://www.lookroot.cn/views/article/webstudy.html#%E8%AF%B4%E6%98%8E%EF%BC%88%E8%AE%A4%E7%9C%9F%E7%9C%8B%EF%BC%81%EF%BC%81%EF%BC%81%EF%BC%89)
 - 《深入浅出Node.js》
 - 《Node.js权威指南》
 - [Node Beginner](https://www.nodebeginner.org/)
